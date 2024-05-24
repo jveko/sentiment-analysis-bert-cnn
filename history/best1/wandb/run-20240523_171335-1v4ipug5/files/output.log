@@ -1,0 +1,16 @@
+2024-05-24 00:13:42,962 INFO Training model...
+Traceback (most recent call last):
+  File "/workspace/main.py", line 158, in <module>
+    main(args)
+  File "/workspace/main.py", line 131, in main
+    train(model=model, device=device, train_dataloader=train_dataloader, val_dataloader=val_dataloader,
+  File "/workspace/train.py", line 47, in train
+    outputs = model(input_ids, attention_mask)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/workspace/models.py", line 67, in forward
+    x = torch.cat(conv_outs, 1)
+RuntimeError: zero-dimensional tensor (at position 0) cannot be concatenated
+[tensor(1.4707, device='cuda:0', grad_fn=<MaxBackward1>), tensor(1.2040, device='cuda:0', grad_fn=<MaxBackward1>), tensor(1.3073, device='cuda:0', grad_fn=<MaxBackward1>)]

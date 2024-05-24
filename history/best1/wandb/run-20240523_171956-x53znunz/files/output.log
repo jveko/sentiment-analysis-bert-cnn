@@ -1,0 +1,229 @@
+2024-05-24 00:20:03,523 INFO Training model...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:20:33,993 INFO Epoch 1/20, Training Loss: 0.3785
+2024-05-24 00:20:36,550 INFO Epoch 1/20, Validation Accuracy: 88.07%
+2024-05-24 00:20:36,557 INFO               precision    recall  f1-score   support
+    negative       0.85      0.65      0.73       167
+    positive       0.89      0.96      0.92       487
+    accuracy                           0.88       654
+   macro avg       0.87      0.80      0.83       654
+weighted avg       0.88      0.88      0.87       654
+2024-05-24 00:20:38,330 INFO Epoch 1 completed in 34.09 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:21:07,461 INFO Epoch 2/20, Training Loss: 0.2168
+2024-05-24 00:21:10,025 INFO Epoch 2/20, Validation Accuracy: 88.99%
+2024-05-24 00:21:10,032 INFO               precision    recall  f1-score   support
+    negative       0.86      0.68      0.76       167
+    positive       0.90      0.96      0.93       487
+    accuracy                           0.89       654
+   macro avg       0.88      0.82      0.84       654
+weighted avg       0.89      0.89      0.89       654
+2024-05-24 00:21:11,976 INFO Epoch 2 completed in 33.65 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:21:41,103 INFO Epoch 3/20, Training Loss: 0.1358
+2024-05-24 00:21:43,708 INFO Epoch 3/20, Validation Accuracy: 90.52%
+2024-05-24 00:21:43,716 INFO               precision    recall  f1-score   support
+    negative       0.81      0.82      0.82       167
+    positive       0.94      0.93      0.94       487
+    accuracy                           0.91       654
+   macro avg       0.87      0.88      0.88       654
+weighted avg       0.91      0.91      0.91       654
+2024-05-24 00:21:45,637 INFO Epoch 3 completed in 33.66 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:22:14,783 INFO Epoch 4/20, Training Loss: 0.0755
+2024-05-24 00:22:17,387 INFO Epoch 4/20, Validation Accuracy: 90.37%
+2024-05-24 00:22:17,393 INFO               precision    recall  f1-score   support
+    negative       0.84      0.77      0.80       167
+    positive       0.92      0.95      0.94       487
+    accuracy                           0.90       654
+   macro avg       0.88      0.86      0.87       654
+weighted avg       0.90      0.90      0.90       654
+2024-05-24 00:22:17,393 INFO Epoch 4 completed in 31.76 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:22:46,531 INFO Epoch 5/20, Training Loss: 0.0432
+2024-05-24 00:22:50,747 INFO Epoch 5/20, Validation Accuracy: 91.13%
+2024-05-24 00:22:50,754 INFO               precision    recall  f1-score   support
+    negative       0.81      0.85      0.83       167
+    positive       0.95      0.93      0.94       487
+    accuracy                           0.91       654
+   macro avg       0.88      0.89      0.89       654
+weighted avg       0.91      0.91      0.91       654
+2024-05-24 00:22:52,670 INFO Epoch 5 completed in 35.28 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:23:21,873 INFO Epoch 6/20, Training Loss: 0.0317
+2024-05-24 00:23:24,476 INFO Epoch 6/20, Validation Accuracy: 88.07%
+2024-05-24 00:23:24,483 INFO               precision    recall  f1-score   support
+    negative       0.73      0.84      0.78       167
+    positive       0.94      0.90      0.92       487
+    accuracy                           0.88       654
+   macro avg       0.84      0.87      0.85       654
+weighted avg       0.89      0.88      0.88       654
+2024-05-24 00:23:24,483 INFO Epoch 6 completed in 31.81 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:23:53,802 INFO Epoch 7/20, Training Loss: 0.0452
+2024-05-24 00:23:56,376 INFO Epoch 7/20, Validation Accuracy: 90.83%
+2024-05-24 00:23:56,383 INFO               precision    recall  f1-score   support
+    negative       0.85      0.78      0.81       167
+    positive       0.93      0.95      0.94       487
+    accuracy                           0.91       654
+   macro avg       0.89      0.87      0.88       654
+weighted avg       0.91      0.91      0.91       654
+2024-05-24 00:23:56,383 INFO Epoch 7 completed in 31.90 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:24:25,561 INFO Epoch 8/20, Training Loss: 0.0140
+2024-05-24 00:24:28,139 INFO Epoch 8/20, Validation Accuracy: 89.76%
+2024-05-24 00:24:28,146 INFO               precision    recall  f1-score   support
+    negative       0.83      0.75      0.79       167
+    positive       0.92      0.95      0.93       487
+    accuracy                           0.90       654
+   macro avg       0.87      0.85      0.86       654
+weighted avg       0.90      0.90      0.90       654
+2024-05-24 00:24:28,146 INFO Epoch 8 completed in 31.76 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-05-24 00:24:57,303 INFO Epoch 9/20, Training Loss: 0.0031
+2024-05-24 00:24:59,863 INFO Epoch 9/20, Validation Accuracy: 90.37%
+2024-05-24 00:24:59,870 INFO               precision    recall  f1-score   support
+    negative       0.86      0.75      0.80       167
+    positive       0.92      0.96      0.94       487
+    accuracy                           0.90       654
+   macro avg       0.89      0.85      0.87       654
+weighted avg       0.90      0.90      0.90       654
+2024-05-24 00:24:59,870 INFO Epoch 9 completed in 31.72 seconds
+Epoch 10/20:  13%|███████▉                                                      | 21/164 [00:03<00:25,  5.59it/s, loss=0.000261]
+Epoch 10/20:  20%|████████████▍                                                 | 33/164 [00:05<00:23,  5.65it/s, loss=0.000277]
+Epoch 10/20:  27%|████████████████▋                                             | 44/164 [00:07<00:21,  5.61it/s, loss=0.000467]
+Epoch 10/20:  34%|████████████████████▊                                         | 55/164 [00:09<00:19,  5.63it/s, loss=0.000209]
+Epoch 10/20:  41%|█████████████████████████▎                                    | 67/164 [00:11<00:17,  5.64it/s, loss=0.000215]
+Epoch 10/20:  48%|█████████████████████████████▍                                | 78/164 [00:13<00:15,  5.61it/s, loss=0.000464]
+Epoch 10/20:  54%|█████████████████████████████████▋                            | 89/164 [00:15<00:13,  5.60it/s, loss=0.000349]
+Epoch 10/20:  62%|█████████████████████████████████████▌                       | 101/164 [00:17<00:11,  5.60it/s, loss=0.000536]
+Epoch 10/20:  68%|█████████████████████████████████████████▋                   | 112/164 [00:19<00:09,  5.60it/s, loss=0.000228]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]
+Epoch 10/20:  76%|██████████████████████████████████████████████▉               | 124/164 [00:22<00:07,  5.58it/s, loss=0.00251]

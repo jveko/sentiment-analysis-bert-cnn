@@ -1,0 +1,5 @@
+2024-05-24 00:12:04,306 INFO Device: cuda
+2024-05-24 00:12:04,307 INFO Model: bert_cnn
+2024-05-24 00:12:04,307 INFO Pretrained model: google-bert/bert-base-multilingual-uncased
+2024-05-24 00:12:04,307 INFO Log file: logs/bert_cnn-2024-05-24_00:12:03.txt
+2024-05-24 00:12:04,307 INFO Unique ID: gvgancavio

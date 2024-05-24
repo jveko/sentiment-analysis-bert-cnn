@@ -1,0 +1,9 @@
+2024-05-24 00:14:07,786 INFO Device: cuda
+2024-05-24 00:14:07,786 INFO Model: bert_cnn
+2024-05-24 00:14:07,786 INFO Pretrained model: google-bert/bert-base-multilingual-uncased
+2024-05-24 00:14:07,786 INFO Log file: logs/bert_cnn-2024-05-24_00:14:06.txt
+2024-05-24 00:14:07,786 INFO Unique ID: jkcebqbaby
+2024-05-24 00:14:08,500 INFO Data loaded from datasets/tweets_labeled_lexicon_cleaned.json
+2024-05-24 00:14:08,500 INFO Hyperparameters CNN: input_dim=768, num_filters=256, kernel_size=7
+2024-05-24 00:14:08,500 INFO Hyperparameters BERT: learning_rate=2e-05, batch_size=16, num_epochs=20, target_names=['negative', 'positive'] 
+2024-05-24 00:14:15,841 INFO Training model...

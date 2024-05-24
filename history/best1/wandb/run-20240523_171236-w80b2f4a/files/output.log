@@ -1,0 +1,23 @@
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████| 48.0/48.0 [00:00<00:00, 151kB/s]
+vocab.txt: 100%|█████████████████████████████████████████████████████████████████████████████| 872k/872k [00:00<00:00, 1.31MB/s]
+tokenizer.json: 100%|██████████████████████████████████████████████████████████████████████| 1.72M/1.72M [00:00<00:00, 2.06MB/s]
+/opt/conda/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+config.json: 100%|█████████████████████████████████████████████████████████████████████████████| 625/625 [00:00<00:00, 1.90MB/s]
+
+model.safetensors: 100%|██████████████████████████████████████████████████████████████████████| 672M/672M [00:03<00:00, 218MB/s]
+2024-05-24 00:12:50,639 INFO Training model...
+Traceback (most recent call last):
+  File "/workspace/main.py", line 158, in <module>
+    main(args)
+  File "/workspace/main.py", line 131, in main
+    train(model=model, device=device, train_dataloader=train_dataloader, val_dataloader=val_dataloader,
+  File "/workspace/train.py", line 47, in train
+    outputs = model(input_ids, attention_mask)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/workspace/models.py", line 66, in forward
+    x = torch.cat(conv_outs, 1)
+RuntimeError: zero-dimensional tensor (at position 0) cannot be concatenated

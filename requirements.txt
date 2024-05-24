@@ -1,0 +1,11 @@
+pandas
+emoji
+transformers
+numpy
+scikit-learn
+matplotlib
+nltk
+tensorboard
+nanoid
+wandb
+datasets
