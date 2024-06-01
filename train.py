@@ -9,16 +9,22 @@ import wandb
 
 
 def train(model, device, train_dataloader, val_dataloader, learning_rate, num_epochs, patience, weight_decay,
-          best_model_path, logger,target_names, save_model=False, save_report=False):
+          best_model_path, logger, target_names, save_model=False, save_report=False):
     logger.info("Training model...")
 
     wandb.watch(model, log="all")
 
     # Loss, Optimizer and Scheduler
     criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
+    # no_decay = ["bias", "LayerNorm.weight"]
+    # optimizer_grouped_parameters = [
+    #     {"params": [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)],
+    #      "weight_decay": weight_decay},
+    #     {"params": [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], "weight_decay": 0.0}
+    # ]
+    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
     total_steps = len(train_dataloader) * num_epochs
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=500, num_training_steps=total_steps)
 
     # TensorBoard
     writer = SummaryWriter(log_dir='runs/BERT_CNN_SA')
