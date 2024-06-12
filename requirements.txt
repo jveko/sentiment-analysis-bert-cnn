@@ -9,3 +9,6 @@ tensorboard
 nanoid
 wandb
 datasets
+torch-summary
+accelerate
+evaluate
