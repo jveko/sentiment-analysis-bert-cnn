@@ -176,6 +176,9 @@ def main(args):
         wandb.log({"val_dataloader": wandb.Table(dataframe=df.iloc[val_dataloader.dataset.indices])})
         wandb.log({"test_dataloader": wandb.Table(dataframe=df.iloc[test_dataloader.dataset.indices])})
         wandb.log({"model_summary": str(model)})
+        artifact = wandb.Artifact('model', type='model')
+        artifact.add_file(save_path)
+        wandb.log_artifact(artifact)
         wandb.finish()
         logger.removeHandler(file_handler)
 

@@ -26,3 +26,7 @@ python main.py --models bert bert_cnn bert_lstm bert_gru  --pretrained_model ind
 ```bash
 accelerate launch --config_file ./config.yaml  main.py --models bert bert_cnn bert_lstm bert_gru  --pretrained_model indolem/indobert-base-uncased --dataset datasets/tweets_distilbert_labeled_balanced.json
 ```
+
+```bash
+python main.py --models bert bert_cnn bert_lstm bert_bilstm bert_gru bert_bigru --pretrained_model indolem/indobert-base-uncased --dataset datasets/tweets_distilbert_labeled_balanced_2.json
+```
